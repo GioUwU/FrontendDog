@@ -24,7 +24,7 @@ const[state, setState] = useState({
     // eslint-disable-next-line
     useEffect(() => {
       async function getNames(){
-      const names = await axios.get("https://kingdogsapi.herokuapp.com//temperaments")
+      const names = await axios.get("https://kingdogsapi.herokuapp.com/temperaments")
       setState({
         ...state,
         chooseTemps: names.data
@@ -54,7 +54,7 @@ const[state, setState] = useState({
     }
     const handleSubmit = async e => {        
         e.preventDefault()
-        const names = await axios.get("http://localhost:3001/dogs")
+        const names = await axios.get("https://kingdogsapi.herokuapp.com/dogs")
         const exists = names.data.find(name => name.nombre === state.nombre)
         if(exists){
             setState({
@@ -73,7 +73,7 @@ const[state, setState] = useState({
             })
         }
         else{
-            await axios.post("http://localhost:3001/dogs", {
+            await axios.post("https://kingdogsapi.herokuapp.com/dogs", {
                 nombre: state.nombre,
                 temperamento: state.temperamento,
                 peso: state.peso,
