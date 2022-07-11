@@ -757,6 +757,17 @@ body {
    text-decoration: none;
 }
 
+.textCard {
+    margin: 10px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    border-radius: 10px;
+    width: 255px;
+    height: 150px;
+}
+
 .textDetItem2 {
     background-color: #c5c3c3;
     font-size: 10px;
