@@ -8,7 +8,7 @@ export function getId(id) {
   }
   return async function(dispatch) {
     console.log(id)
-    const result = await axios.get("http://localhost:3001/dogs/" + id);
+    const result = await axios.get("https://kingdogsapi.herokuapp.com/dogs/" + id);
     console.log(id)
     dispatch({ type: GET_ID, payload: result.data });
   };
@@ -22,7 +22,7 @@ export function getRazas(raza) {
       }
     }
     return async function(dispatch) {
-      const result = await axios.get("http://localhost:3001/dogs?name=" + raza);
+      const result = await axios.get("https://kingdogsapi.herokuapp.com/dogs?name=" + raza);
       dispatch({ type: GET_RAZAS, payload: result.data });
     };
 }
@@ -30,7 +30,7 @@ export function getRazas(raza) {
 
 export function getTemps(temp) {
   return function(dispatch) {
-    return axios.get("http://localhost:3001/dogs")
+    return axios.get("https://kingdogsapi.herokuapp.com/dogs")
       .then(result => {
         const razas = []
         result.data.forEach(e => {if(e.temperamento && e.temperamento.toLowerCase().includes(temp)){razas.push(e)}})
