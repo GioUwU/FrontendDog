@@ -23,9 +23,10 @@ export function getRazas(raza) {
     }
     return async function(dispatch) {
       const result = await axios.get("https://kingdogsapi.herokuapp.com/dogs?name=" + raza);
-      dispatch({ type: GET_RAZAS, payload: result.data });
-    };
-}
+      dispatch({ type: GET_RAZAS, payload: result.data })
+    }
+  }
+
 
 
 export function getTemps(temp) {
@@ -35,9 +36,13 @@ export function getTemps(temp) {
         const razas = []
         result.data.forEach(e => {if(e.temperamento && e.temperamento.toLowerCase().includes(temp)){razas.push(e)}})
         dispatch({ type: GET_TEMPS, payload: razas });
-      });
+      }).catch(err => {
+        console.log(err)
+      })
   };
 }
+
+
 
   export const GET_RAZAS = "GET_RAZAS"
   export const GET_TEMPS = "GET_TEMPS"

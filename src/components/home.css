@@ -661,4 +661,168 @@ body {
 
 }
 
+@media screen and (max-width: 500px) {
+
+.homeCointainter {
+    height: 100%;
+    background-color: #dad8d8;
+    border-radius: 20px;
+    margin: 0px;
+    width: 280px;
+}
+
+.bar {
+    background-color: rgb(199, 197, 197);
+    border-radius: 20px;
+    height: 90px;
+}
+
+.formContainer {
+    display: flex;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.btn {
+    border-radius: 5px;
+    margin-left: 5px;
+    width: 55px;
+    height: 40px;
+}
+
+
+.btn:hover {
+    background-color: #dad8d8;
+}
+
+.input {
+    border-radius: 5px;
+    width: 60px;
+    height: 40px;
+    margin: 0px;
+    margin-left: -30px;
+}
+
+.barItem {
+    display: none;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.btn2 {
+    border-radius: 5px;
+    margin-left: 5px;
+    width: 50px;
+    height: 45px;
+    background-color: #ffee00;
+}
+.pageBox
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    width: 0%;
+}
+
+.cardsBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 0px;
+}
+
+.razaCard {
+    align-items: center;
+    background-color: rgb(199, 197, 197);
+    width: 200px;
+    height: 280px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.imgCard {
+    width: 100px;
+    height: 75px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.links {
+   text-decoration: none;
+}
+
+.textDetItem2 {
+    background-color: #c5c3c3;
+    font-size: 10px;
+    margin-top: 5px;
+    border-radius: 0px;
+    height: 50px;
+    width: 180px;
+}
+.btnPage {
+    background-color: #15ff00;
+    border-radius: 10px;
+    margin: 25px;
+    width: 70px;
+    height: 45px;
+}
+
+.btnPage:hover {
+    background-color: #dad8d8;
+}
+
+.numberPage {
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+
+.razaCardNotFound {
+    align-items: center;
+    width: 212px;
+    height: 412px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.textCardNotFound {
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(253, 2, 2);
+    border-radius: 10px;
+    width: 212px;
+    height: 150px;
+}
+
+.imgCard2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.loadingHome {
+    margin: auto;
+    height: 100px;
+}
+
+.loadingg {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 8px;
+    font-weight: bold;
+    color: #333;
+    height: 100px;
+}
+
+
+}
+
 

@@ -20,7 +20,7 @@ export function Inicio() {
                 it was thought of as something minimalist, browser windows style.
               </p>
           <Link to= '/home'>
-              <button className='btnIni'> Iniciar </button>
+              <button className='btnIni'> Lets Go</button>
           </Link>  
           </div>
           <div className='responseIni'>
