@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Albert Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #bbbbbb;
+}
+
+.IniCointainter {
+    justify-content: center;
+    height: 100vh;
+    background-color: #bbbbbb;
+}
+
+.textIni {
+    margin-right: 20%; 
+    margin-left: 25%;
+    margin-top: 8px;
+    width: 750px;
+    height: 250px;
+    background-color: #dad8d8;
+    border-radius: 5px;
+}
+
+.textInip {
+    text-align: left;
+    font-size: 22px;
+    padding: 2%;
+    margin: 1%;
+}
+
+.dogIni {
+    width: 5%;
+    height: 5%; 
+    margin-top: 0%;
+}
+
+.imageIni {
+    margin-top: 100%;
+    margin-left: -1100%;
+}
+
+.responseIni{
+    display: none;
+}
+
+.responseImaIni {
+    display: none;
+}
+
+
+.titleIni {
+    margin-left: 25%;
+    margin-top: 18%;
+    width: 750px;
+    height: 55px;
+    background-color: #dad8d8;
+    border-radius: 5px;
+
+}
+
+.btnIni {
+    margin-left: 70%;
+    margin-top: -20%;
+    width: 140px;
+    height: 35px;
+    background-color: #00ff2a;
+    border-radius: 5px;
+}
+
+.btnIni {
+  transition-duration: 0.4s;
+}
+
+.btnIni:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+  *  {
+    margin: 0;
+    padding: 0;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+
+body {
+    background-color: #bbbbbb;
+}
+
+.IniCointainter {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dogIni {
+    display: none;
+}
+
+.titleIni {
+    flex: 1;
+    background-color: #dad8d8;
+    margin: 8px;
+    border-radius: 5px;
+    height: 50px;
+    width: 740px;
+}
+
+.textIni {
+    background-color: #dad8d8;
+    margin: 8px;
+    margin-top: 0px;
+    border-radius: 5px;
+    width: 740px;
+    height: 320px;
+}
+
+.btnIni {
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 140px;
+    height: 35px;
+    background-color: #00ff2a;
+    border-radius: 5px;
+}
+
+
+.imageIni {
+    visibility: hidden;
+}
+
+.responseIni{
+    display: flex;
+    margin: 8px;
+    width: 740px;
+    height: 240px;
+}
+
+.responseImaIni {
+    display: flex;
+    align-items: center;
+    width: 840px;
+    height: 230px;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 1000px) {
+
+*  {
+    margin: 0;
+    padding: 0;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+
+body {
+    background-color: #bbbbbb;
+}
+
+.IniCointainter {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dogIni {
+    display: none;
+}
+
+.titleIni {
+    flex: 1;
+    background-color: #dad8d8;
+    margin: 8px;
+    border-radius: 5px;
+    height: 50px;
+    width: 340px;
+}
+
+.textIni {
+    background-color: #dad8d8;
+    margin: 8px;
+    margin-top: 0px;
+    border-radius: 5px;
+    width: 340px;
+    height: 420px;
+}
+
+.btnIni {
+    margin-left: 40%;
+    margin-top: -20%;
+    width: 140px;
+    height: 35px;
+    background-color: #00ff2a;
+    border-radius: 5px;
+}
+
+
+
+.imageIni {
+    visibility: hidden;
+}
+
+.responseIni{
+    display: flex;
+    margin: 8px;
+    width: 340px;
+    height: 140px;
+}
+
+.responseImaIni {
+    display: flex;
+    align-items: center;
+    width: 340px;
+    height: 150px;
+}
+
+
+    
+}
+
+
+
+
+

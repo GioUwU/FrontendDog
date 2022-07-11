@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  font-family: 'Albert Sans', sans-serif;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #bbbbbb;
+  margin: 5%;
+}
+
+.detBox {
+  width: 600px;
+  height: 450px;
+}
+
+
+.detContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #dad8d8;
+    margin-top: 80px;
+    width: 1200px;
+    height: 980px;
+    border-radius: 10px;
+}
+
+
+.imgDet {
+    margin-top: -150px;
+    width: 80%;
+    height: 80%;
+    border-radius: 40px;
+    box-shadow: #333 0px 0px 10px;
+}
+
+.textDet {
+    padding: 15px;
+    padding-top: 0px;
+    margin-left: 55px;
+    width: 490px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.textDetItem {
+    display: flex;
+    align-items: center;
+    background-color: #c5c3c3;
+    margin-top: 15px;
+    border-radius: 10px;
+    height: 60px;
+    box-shadow: #333 0px 0px 6px;
+}
+
+.btnDet {
+    width: 280px;
+    height: 50px;
+    background-color: #00ff2a;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 95%;
+    font-size: 18px;
+}
+
+.btnDet {
+  transition-duration: 0.4s;
+}
+
+.btnDet:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  .detContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #dad8d8;
+    width: 600px;
+    height: 780px;
+    border-radius: 10px;
+}
+  .detBox {
+  width: 550px;
+  height: 450px;
+}
+
+.imgDet {
+    margin-top: -100px;
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    box-shadow: #333 0px 0px 10px;
+}
+
+.textDet {
+    padding: 15px;
+    padding-top: 0px;
+    margin-left: 50px;
+    width: 490px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.textDetItem {
+    display: flex;
+    background-color: #c5c3c3;
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 50px;
+    box-shadow: #333 0px 0px 6px;
+}
+
+.btnDet {
+    width: 180px;
+    height: 50px;
+    background-color: #00ff2a;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 60%;
+    font-size: 18px;
+}
+
+.btnDet {
+  transition-duration: 0.4s;
+}
+
+.btnDet:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+
+}
+
+@media screen and (max-width: 600px) {
+  .detContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #dad8d8;;
+    width: 350px;
+    height: 680px;
+    border-radius: 10px;
+}
+  .detBox {
+  width: 350px;
+  height: 350px;
+}
+
+.imgDet {
+    margin-top: -100px;
+    width: 35%;
+    height: 35%;
+    border-radius: 20px;
+    box-shadow: #333 0px 0px 10px;
+}
+
+.textDet {
+    padding: 15px;
+    padding-top: 0px;
+    margin-left: 50px;
+    width: 260px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.textDetItem {
+    display: flex;
+    background-color: #c5c3c3;
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 50px;
+    box-shadow: #333 0px 0px 6px;
+}
+
+.btnDet {
+    width: 180px;
+    height: 50px;
+    background-color: #00ff2a;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 0%;
+    font-size: 18px;
+}
+
+.btnDet {
+  transition-duration: 0.4s;
+}
+
+.btnDet:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+
+}
+
+@media screen and (max-width: 400px) {
+  .detContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #dad8d8;;
+    width: 300px;
+    height: 580px;
+    border-radius: 10px;
+}
+  .detBox {
+  width: 350px;
+  height: 350px;
+}
+
+.imgDet {
+    margin-top: -100px;
+    width: 30%;
+    height: 30%;
+    border-radius: 20px;
+    box-shadow: #333 0px 0px 10px;
+}
+
+.textDet {
+    padding: 0px;
+    padding-top: 0px;
+    margin-left: 50px;
+    width: 250px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.textDetItem {
+    display: flex;
+    background-color: #c5c3c3;
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 50px;
+    box-shadow: #333 0px 0px 6px;
+}
+
+.btnDet {
+    width: 120px;
+    height: 40px;
+    background-color: #00ff2a;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 0%;
+    font-size: 18px;
+}
+
+.btnDet {
+  transition-duration: 0.4s;
+}
+
+.btnDet:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+
+}
+
+@media screen and (max-width: 280px) {
+  .detContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #dad8d8;;
+    width: 220px;
+    height: 480px;
+    border-radius: 10px;
+}
+  .detBox {
+  width: 250px;
+  height: 350px;
+}
+
+.imgDet {
+    margin-top: -50px;
+    width: 25%;
+    height: 25%;
+    border-radius: 20px;
+    box-shadow: #333 0px 0px 10px;
+}
+
+.textDet {
+    padding: 15px;
+    padding-top: 0px;
+    margin-left: 15px;
+    width: 220px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.textDetItem {
+    display: flex;
+    background-color: #c5c3c3;
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 50px;
+    box-shadow: #333 0px 0px 6px;
+}
+
+.btnDet {
+    width: 120px;
+    height: 40px;
+    background-color: #00ff2a;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 0%;
+    font-size: 18px;
+}
+
+.btnDet {
+  transition-duration: 0.4s;
+}
+
+.btnDet:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+
+}
+    
+    
