@@ -24,7 +24,7 @@ const[state, setState] = useState({
     // eslint-disable-next-line
     useEffect(() => {
       async function getNames(){
-      const names = await axios.get("http://localhost:3001/temperaments")
+      const names = await axios.get("https://kingdogsapi.herokuapp.com//temperaments")
       setState({
         ...state,
         chooseTemps: names.data
