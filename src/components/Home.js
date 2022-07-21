@@ -3,6 +3,7 @@ import{ getRazas, getTemps, getId } from '../actions/actions'
 import React, { useState } from 'react';
 import { connect } from "react-redux";
 import './home.css';
+import { BiDownArrowAlt, BiUpArrowAlt } from "react-icons/bi";
 
 const  Home = (props) => {
     const [raza, setRaza] = useState('');
@@ -10,6 +11,7 @@ const  Home = (props) => {
     const [order, setOrder] = useState('a-z')
     const [page, setPage] = useState(0)
     const [searching, setSearching] = useState(false)
+    const [ascenDescen, setAscenDescen] = useState('BiUpArrowAlt')
 
 
     let handleChange = function (e) {
@@ -33,6 +35,17 @@ const  Home = (props) => {
         setFilter('Breed')    
       }
     }
+    let toggleascenDescen = function (e) {
+      e.preventDefault();
+      if (ascenDescen === 'BiDownArrowAlt') {
+        setAscenDescen('BiUpArrowAlt')
+        props.razas && props.razas.reverse()
+      }
+      else {
+        setAscenDescen('BiDownArrowAlt')
+        props.razas && props.razas.reverse()
+      }
+    }
     let toggleOrder = function(e){
       e.preventDefault(); 
       if(order === 'a-z'){
@@ -53,7 +66,6 @@ const  Home = (props) => {
       e.preventDefault();
       if(page>0) setPage(page-1)
     }
-
     return (
          <div className='homeCointainter'>
         <div className='bar'>  
@@ -73,6 +85,10 @@ const  Home = (props) => {
             <div className='orderContainer'>
             <span className='barItem' >Order:</span>
             <button className='btn' onClick={(e) => toggleOrder(e)}>{order}</button>
+            <button className='btn5' onClick={(e) => toggleascenDescen(e)}>
+                {ascenDescen === 'BiUpArrowAlt' && <BiUpArrowAlt />}
+                {ascenDescen === 'BiDownArrowAlt' && <BiDownArrowAlt />}
+            </button>
             </div>
             : null
           }      

@@ -45,6 +45,13 @@ body {
     height: 45px;
 }
 
+.btn5 {
+    border-radius: 0px;
+    margin-left: 5px;
+    width: 30px;
+    height: 40px;
+}
+
 .btn2:hover {
     background-color: #63ff09;
 }
@@ -543,10 +550,16 @@ body {
 .btn {
     border-radius: 5px;
     margin-left: 5px;
-    width: 48px;
+    width: 32px;
     height: 25px;
 }
 
+.btn5 {
+    border-radius: 0px;
+    margin-left: 5px;
+    width: 18px;
+    height: 25px;
+}
 
 .btn:hover {
     background-color: #dad8d8;
@@ -696,13 +709,20 @@ body {
     margin: 30px;
 }
 
+
 .btn {
     border-radius: 5px;
     margin-left: 5px;
-    width: 55px;
+    width: 32px;
     height: 40px;
 }
 
+.btn5 {
+    border-radius: 0px;
+    margin-left: 5px;
+    width: 18px;
+    height: 40px;
+}
 
 .btn:hover {
     background-color: #dad8d8;
